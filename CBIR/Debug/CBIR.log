@@ -1,0 +1,30 @@
+﻿Build started 2015/9/23 22:45:46.
+     1>Project "H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\CBIR\CBIR.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         H:\1-software\21-visualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CBIR.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BeeColonyAlgo.cpp CBIR.cpp CBIRFormView.cpp CBIRView.cpp Canvas.cpp Image.cpp ImageDsrDlg.cpp MainFrm.cpp RPResult.cpp RPResultDlg.cpp
+         RPResultDlg.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         RPResult.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         MainFrm.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirview.h(13): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         ImageDsrDlg.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         Image.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         Canvas.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         CBIRView.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirview.h(13): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         CBIRFormView.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         CBIR.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         BeeColonyAlgo.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\CBIR\CBIR.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.42
