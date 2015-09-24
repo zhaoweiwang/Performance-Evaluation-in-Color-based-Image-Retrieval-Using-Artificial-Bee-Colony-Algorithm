@@ -1,30 +1,76 @@
-﻿Build started 2015/9/23 22:45:46.
+﻿Build started 2015/9/24 9:23:23.
      1>Project "H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\CBIR\CBIR.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          H:\1-software\21-visualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CBIR.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BeeColonyAlgo.cpp CBIR.cpp CBIRFormView.cpp CBIRView.cpp Canvas.cpp Image.cpp ImageDsrDlg.cpp MainFrm.cpp RPResult.cpp RPResultDlg.cpp
-         RPResultDlg.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
-         RPResult.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
-         MainFrm.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirview.h(13): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
-         ImageDsrDlg.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
-         Image.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
-         Canvas.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
-         CBIRView.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirview.h(13): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
-         CBIRFormView.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
-         CBIR.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
          BeeColonyAlgo.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.h(10): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\beecolonyalgo.cpp(52): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\beecolonyalgo.cpp(71): warning C4018: '>' : signed/unsigned mismatch
          Generating Code...
-     1>Done Building Project "H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\CBIR\CBIR.vcxproj" (Build target(s)) -- FAILED.
+         Compiling...
+         RPResultDlg.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 h:\1-software\21-visualstudio2013\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 h:\1-software\21-visualstudio2013\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(126): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(128): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(153): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(204): warning C4018: '<' : signed/unsigned mismatch
+         RPResult.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresult.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresult.cpp(92): warning C4018: '>=' : signed/unsigned mismatch
+         MainFrm.cpp
+         ImageDsrDlg.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\imagedsrdlg.cpp(125): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\imagedsrdlg.cpp(127): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\imagedsrdlg.cpp(163): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Image.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.cpp(583): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.cpp(591): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.cpp(599): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         Canvas.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\canvas.cpp(145): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         CBIRView.cpp
+         CBIRFormView.cpp
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirformview.cpp(211): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirformview.cpp(218): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirformview.cpp(346): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirformview.cpp(347): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirformview.cpp(374): warning C4244: 'argument' : conversion from 'float' to 'LONG', possible loss of data
+         CBIR.cpp
+         Generating Code...
+       Link:
+         H:\1-software\21-visualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\Debug\CBIR.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glew32.lib SOIL.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"H:\1-software\21-visualStudio2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\Debug\CBIR.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\Debug\CBIR.lib" /MACHINE:X86 /SAFESEH Debug\CBIR.res
+         Debug\BeeColonyAlgo.obj
+         Debug\Canvas.obj
+         Debug\DataStruct.obj
+         Debug\FixedSplitterWnd.obj
+         Debug\FuncsLib.obj
+         Debug\Image.obj
+         Debug\ImageDsrDlg.obj
+         Debug\MainFrm.obj
+         Debug\CBIR.obj
+         Debug\CBIRDoc.obj
+         Debug\CBIRFormView.obj
+         Debug\CBIRView.obj
+         Debug\RPResult.obj
+         Debug\RPResultDlg.obj
+         Debug\stdafx.obj
+         Debug\Timer.obj
+     1>BeeColonyAlgo.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         SOIL.lib(SOIL.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>BeeColonyAlgo.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\Debug\vc100.pdb'; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\Debug\vc100.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\Debug\vc100.pdb'; linking object as if no debug info
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\Debug\vc100.pdb'; linking object as if no debug info
+         CBIR.vcxproj -> H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\Debug\CBIR.exe
+     1>Done Building Project "H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\CBIR\CBIR.vcxproj" (Build target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:00.42
+Time Elapsed 00:00:04.68
