@@ -424,7 +424,7 @@ double CCBIRView::PerformNormRetrieval()
 			minDistance = 999999.0f;
 			minImageIndex = 0;
 
-			// 遍历以搜索当前最匹配度最高（距离最小）的图片，并对其进行标记以避免重复搜索
+			// 遍历以搜索当前匹配度最高（距离最小）的图片，并对其进行标记以避免重复搜索
 			for (unsigned int j = 0 ; j < mImageList.GetListSize() ; ++j)
 			{
 				if(mImageList.GetItemPtr(j)->IsFlagged() == false)
@@ -456,7 +456,7 @@ double CCBIRView::PerformNormRetrieval()
 }
 
 /************************************************************************************
-执行常规的检索
+执行蜂群算法的检索
 1. 首先重置渲染画布；
 2. 使用蜂群检索算法对象（BeeColonyAlgo）来执行检索操作
 其中的检索结果排序等相关的操作均由蜂群算法对象来维护。这其中为了统计效率，在检索开始前放置计时器，

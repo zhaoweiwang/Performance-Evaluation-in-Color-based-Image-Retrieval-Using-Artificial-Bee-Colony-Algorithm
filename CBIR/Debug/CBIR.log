@@ -1,44 +1,11 @@
-﻿Build started 2015/9/24 9:23:23.
+﻿Build started 2015/9/24 16:48:51.
      1>Project "H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\CBIR\CBIR.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         H:\1-software\21-visualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CBIR.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BeeColonyAlgo.cpp CBIR.cpp CBIRFormView.cpp CBIRView.cpp Canvas.cpp Image.cpp ImageDsrDlg.cpp MainFrm.cpp RPResult.cpp RPResultDlg.cpp
-         BeeColonyAlgo.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\beecolonyalgo.cpp(52): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\beecolonyalgo.cpp(71): warning C4018: '>' : signed/unsigned mismatch
-         Generating Code...
-         Compiling...
-         RPResultDlg.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(58): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 h:\1-software\21-visualstudio2013\vc\include\stdio.h(356) : see declaration of 'sprintf'
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(77): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 h:\1-software\21-visualstudio2013\vc\include\stdio.h(356) : see declaration of 'sprintf'
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(126): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(128): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(153): warning C4018: '<' : signed/unsigned mismatch
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresultdlg.cpp(204): warning C4018: '<' : signed/unsigned mismatch
-         RPResult.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresult.cpp(39): warning C4018: '<' : signed/unsigned mismatch
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\rpresult.cpp(92): warning C4018: '>=' : signed/unsigned mismatch
-         MainFrm.cpp
-         ImageDsrDlg.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\imagedsrdlg.cpp(125): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\imagedsrdlg.cpp(127): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\imagedsrdlg.cpp(163): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         H:\1-software\21-visualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\CBIR.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Image.cpp
          Image.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.cpp(583): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.cpp(591): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.cpp(599): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
-         Canvas.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\canvas.cpp(145): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-         CBIRView.cpp
-         CBIRFormView.cpp
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirformview.cpp(211): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirformview.cpp(218): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirformview.cpp(346): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirformview.cpp(347): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
-     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\cbirformview.cpp(374): warning C4244: 'argument' : conversion from 'float' to 'LONG', possible loss of data
-         CBIR.cpp
-         Generating Code...
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.cpp(584): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.cpp(592): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>h:\2-source\1-github\performance-evaluation-in-color-based-image-retrieval-using-artificial-bee-colony-algorithm\cbir\image.cpp(600): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
        Link:
          H:\1-software\21-visualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\Debug\CBIR.exe" /INCREMENTAL /NOLOGO opengl32.lib glu32.lib glew32.lib SOIL.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"H:\1-software\21-visualStudio2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\Debug\CBIR.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\2-source\1-Github\Performance-Evaluation-in-Color-based-Image-Retrieval-Using-Artificial-Bee-Colony-Algorithm\Debug\CBIR.lib" /MACHINE:X86 /SAFESEH Debug\CBIR.res
          Debug\BeeColonyAlgo.obj
@@ -73,4 +40,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:04.68
+Time Elapsed 00:00:01.75

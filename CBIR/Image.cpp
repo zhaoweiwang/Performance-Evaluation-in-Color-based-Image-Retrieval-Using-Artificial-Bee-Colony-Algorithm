@@ -9,6 +9,7 @@
 #include "Image.h"
 #include "SOIL.h"
 #include "FuncsLib.h"
+#include "iostream"
 
 /************************************************************************************
 º”‘ÿÕºœÒ°£
